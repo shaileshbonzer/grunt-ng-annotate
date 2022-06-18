@@ -2,11 +2,18 @@
     "name": "grunt-ng-annotate",
     "version": "4.0.1-pre",
     "description": "Add, remove and rebuild AngularJS dependency injection annotations.",
-    "homepage": "https://github.com/mgol/grunt-ng-annotate",
-    "author": {
-        "name": "Michał Gołębiowski-Owczarek",
-        "email": "m.goleb@gmail.com"
-    },
+    "homepage": "https://github.com/shaileshbonzer/grunt-ng-annotate",
+    "authors": [
+        {
+            "name": "Michał Gołębiowski-Owczarek",
+            "email": "m.goleb@gmail.com"
+        },
+        {
+            "name": "Shailesh",
+            "email": "shailesh.bonzer@gmail.com",
+            "homepage": "https://github.com/shaileshbonzer"
+        }
+    ],
     "keywords": [
         "angular",
         "angularjs",
@@ -24,16 +31,18 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/mgol/grunt-ng-annotate.git"
+        "url": "https://github.com/shaileshbonzer/grunt-ng-annotate.git"
     },
-    "bugs": "https://github.com/mgol/grunt-ng-annotate/issues",
+    "bugs": "https://github.com/shaileshbonzer/grunt-ng-annotate/issues",
     "license": "MIT",
     "files": [
         "tasks",
         "src"
     ],
     "dependencies": {
-        "ng-annotate": "^1.2.2"
+        "ng-annotate": "^1.2.2",
+        "lodash.clonedeep": "^4.5.0",
+        "ng-annotate-patched": "https://github.com/bluetech/ng-annotate-patched.git#fork"
     },
     "devDependencies": {
         "babel-core": "6.26.3",
